@@ -1,0 +1,109 @@
+body {
+  font-family: Arial, sans-serif;
+  text-align: center;
+  background: #f7f7f7;
+  margin: 0;
+  padding: 20px;
+}
+
+.container {
+  max-width: 500px;
+  margin: auto;
+  padding: 20px;
+  background: white;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+#preview img {
+  max-width: 100%;
+  margin-top: 20px;
+  border-radius: 10px;
+}
+/* General body styling */
+body {
+  font-family: Arial, sans-serif;
+  background: #f7f7f7;
+  margin: 0;
+  padding: 20px;
+  color: #333;
+}
+
+/* Central container for content */
+.container {
+  max-width: 600px;
+  margin: 30px auto;
+  padding: 25px 30px;
+  background: #fff;
+  border-radius: 12px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+}
+
+/* Headings */
+h1 {
+  font-size: 1.8rem;
+  margin-bottom: 20px;
+  color: #222;
+}
+
+/* Input file & textarea styling */
+input[type="file"], textarea {
+  width: 100%;
+  padding: 10px 12px;
+  margin: 10px 0 15px 0;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+  font-size: 1rem;
+  box-sizing: border-box;
+}
+
+/* Buttons */
+button {
+  padding: 10px 20px;
+  margin: 10px 0;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #45a049;
+}
+
+/* Image preview */
+#preview {
+  margin-top: 20px;
+}
+
+#preview img {
+  max-width: 100%;
+  max-height: 300px;
+  border-radius: 10px;
+  border: 1px solid #ddd;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
+
+/* Caption text */
+#caption {
+  margin-top: 12px;
+  font-weight: bold;
+  font-size: 1.1rem;
+  color: #555;
+}
+
+/* BFHL API response */
+#bfhlResponse {
+  margin-top: 10px;
+  padding: 10px;
+  background: #f2f2f2;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+  white-space: pre-wrap;
+  text-align: left;
+  font-family: monospace;
+  color: #333;
+}
